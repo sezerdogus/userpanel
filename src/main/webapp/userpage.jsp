@@ -69,7 +69,7 @@
 </head>
  
 <body>
-	<h1 id='banner'>Record System</h1>
+	<h1 id='banner'>User Records</h1>
 	<hr/>
 	
 	<table id='tableUsers'>
@@ -77,16 +77,15 @@
 		<thead>
 			<tr>
 				<th></th>
-				<th>Username</th>
 				<th>First Name</th>
 				<th>Last Name</th>
-				<th>Role</th>
+				<th>Phone Number</th>
 			</tr>
 		</thead>
 	</table>
 	
 	<div id='controlBar'>
-		<input type='button' value='New' id='newBtn' />
+		<input type='button' value='Create' id='newBtn' />
 		<input type='button' value='Delete' id='deleteBtn' />
 		<input type='button' value='Edit' id='editBtn' />
 		<input type='button' value='Reload' id='reloadBtn' />
@@ -96,15 +95,9 @@
 		<form>
   			<fieldset>
 				<legend>Create New Record</legend>
-				<label for='newUsername'>Username</label><input type='text' id='newUsername'/><br/>
-				<label for='newPassword'>Password</label><input type='password' id='newPassword'/><br/>
 				<label for='newFirstName'>First Name</label><input type='text' id='newFirstName'/><br/>
 				<label for='newLastName'>Last Name</label><input type='text' id='newLastName'/><br/>
-				<label for='newRole'>Role</label>
-					<select id='newRole'>
-						<option value='1'>Admin</option>
-						<option value='2' selected='selected'>Regular</option>
-					</select>
+				<label for='newNumber'>Phone Number</label>
   			</fieldset>
 			<input type='button' value='Close' id='closeNewForm' />
 			<input type='submit' value='Submit'/>
@@ -118,11 +111,7 @@
 				<input type='hidden' id='editUsername'/>
 				<label for='editFirstName'>First Name</label><input type='text' id='editFirstName'/><br/>
 				<label for='editLastName'>Last Name</label><input type='text' id='editLastName'/><br/>
-				<label for='editRole'>Role</label>
-					<select id='editRole'>
-						<option value='1'>Admin</option>
-						<option value='2' selected='selected'>Regular</option>
-					</select>
+				<label for='editNumber'>Phone Number</label>
 			</fieldset>
 			<input type='button' value='Close' id='closeEditForm' />
 			<input type='submit' value='Submit'/>
