@@ -10,10 +10,10 @@ public class MongoService {
 	private MongoTemplate mongoTemplate;
  
 	public void init() {
-		// Drop existing collections
+		// Drops existing collections
 		mongoTemplate.dropCollection("user");
  
-		
+		//creating user examples
 		User dogus = new User();
 		dogus.setId(UUID.randomUUID().toString());
 		dogus.setName("Dogus");

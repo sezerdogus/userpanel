@@ -33,9 +33,11 @@
 			<attribute name="owner.project.facets" value="java"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="lib/mongo-java-driver-2.13.0-rc0-javadoc.jar"/>
-	<classpathentry kind="lib" path="lib/spring-data-mongodb-1.6.1.RELEASE.jar"/>
-	<classpathentry kind="lib" path="lib/jstl-1.2-sources.jar"/>
-	<classpathentry kind="lib" path="lib/taglibs-standard-impl-1.2.1.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse/jarlib/jstl-1.2-sources.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse/jarlib/mongo-java-driver-2.13.0-rc0-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse/jarlib/spring-data-mongodb-1.6.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse/jarlib/taglibs-standard-impl-1.2.1.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse/jarlib/apache-log4j-2.1-bin/log4j-api-2.1.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse/jarlib/apache-log4j-2.1-bin/log4j-core-2.1.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

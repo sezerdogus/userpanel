@@ -11,6 +11,9 @@ import com.mongodb.ServerAddress;
 import java.util.Arrays;
 
 public class MongoDBJDBC{
+	
+	//Test class for database connection assurance
+	
 	/*
    public static void main( String args[] ){
       try{   

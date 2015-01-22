@@ -1,9 +1,9 @@
 package userlist;
 import org.springframework.data.annotation.Id;
-import org.springframework.data.mongodb.core.mapping.DBRef;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 @Document
+//anotations for mapping accorging to Spring-Data-MongoDB api
 public class User {
 	@Id
     private String id;
@@ -11,6 +11,8 @@ public class User {
     private String surname;	
     private String phoneNo;
     private boolean isUser;
+    
+    // implementing POJOs and their getters setters
     
     public String getSurname() {
 		return surname;

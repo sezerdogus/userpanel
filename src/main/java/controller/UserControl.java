@@ -1,6 +1,7 @@
 package controller;
 import java.util.ArrayList;
 
+
 import service.UserService;
 import userlist.*;
 
@@ -26,6 +27,7 @@ public class UserControl {
 		return "users";
 	}
 	
+	//request handlers tied to jsp
 	@RequestMapping(value="/records")
 	public @ResponseBody UserTable getUsers() {
 		
