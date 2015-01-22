@@ -1,0 +1,9 @@
+--Description--
+Basic application demonstrating how to create a Spring MVC application with Spring-Data-MongoDB api.
+
+--Functional Aspects--
+*A page existing for managing users by CRUD operations
+*Used AJAX to avoid page refresh
+*Everyone can create new users and edit existing ones
+*When editing, users can only edit first name, last name, and role fields
+*Made use of Spring-Data-MongoDB interfaces instead manually coding and implementing of data access objects.
